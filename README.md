@@ -20,11 +20,11 @@ Equivalences:
   - NEOLine: [Chrome extension](https://chrome.google.com/webstore/detail/neoline/cphhlgmgameodnhkjdmkpanlelnlohao) | [Docs](https://neoline.cn/dapi/)
   - Teemo: [Chrome extension](https://chrome.google.com/webstore/detail/teemo-wallet/faddjfhplkcfackpcjnmmeapchnkobjk) | [Docs](https://dapi.nel.group/en/)
 - Web3 = [neon-js](https://github.com/CityOfZion/neon-js) | [Docs](https://cityofzion.io/neon-js) | [JSFiddle Examples](https://github.com/CityOfZion/neon-js/blob/master/examples/browser/README.md)
+- Geth = [neo-cli](https://github.com/neo-project/neo-cli) or [neo-python](https://github.com/CityOfZion/neo-python)
+- Ganache = [neo-local](https://github.com/CityOfZion/neo-local)
 - Solidity = [C#](https://github.com/neo-project/neo-compiler) or [Python](https://github.com/cityOfZion/neo-boa)
   - There are more languages that can be used to code smart contracts, such as Java or Go, but the compilers and the tooling around them are not as mature as the ones available for C# and Python so use at your own risk.
   - Remix IDE = [Neocompiler](https://neocompiler.io/#!/ecolab/compilers)
-  - Geth = [neo-cli](https://github.com/neo-project/neo-cli) or [neo-python](https://github.com/CityOfZion/neo-python)
-  - Ganache = [neo-local](https://github.com/CityOfZion/neo-local)
   - Differences:
     - NEO smart contracts can't send NEO or GAS by themselves, they can only send NEP-5 tokens. NEO smart contracts can receive and store NEO or GAS, but to transfer these a transaction must be crafted and sent by a node in the NEO network.
     - It's not possible to get the NEO or GAS balance of an account (including the smart contract) in an easy way.
